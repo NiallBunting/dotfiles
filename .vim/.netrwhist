@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/niallb/work/images-api/modules'
+let g:netrw_dirhist_2='/Users/niallb/me/TradingPlatform/server/src'
+let g:netrw_dirhist_3='/Users/niallb/work/images-pricebook/scripts'
+let g:netrw_dirhist_4='/Users/niallb/work/images-repository/datasource'
+let g:netrw_dirhist_5='/Users/niallb/work/images-pricebook/lib/express'
+let g:netrw_dirhist_6='/Users/niallb/work/images-pricebook/config'
+let g:netrw_dirhist_7='/Users/niallb/work/images-pricebook/scripts'
+let g:netrw_dirhist_8='/Users/niallb/work/images-asset-ingest/functions/map/lib/templates/pa-features'
