@@ -43,3 +43,11 @@ alias cal='gcal --starting-day=1 -q GB_EN .'
 
 alias python='python3'
 alias pip='pip3'
+
+
+## WSL COMMANDS
+
+#alias pbcopy='clip.exe'
+#alias passcopy='head -n1 | pbcopy ; (sleep 45 && echo "empty" | pbcopy)&'
+#export DOCKER_HOST=tcp://localhost:2375
+#sudo mount --bind /mnt/c /c
