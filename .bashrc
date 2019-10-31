@@ -10,6 +10,7 @@ export PS1="\u:\w\$ "
 alias diff="diff -u"
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 alias less="less -X"
+alias dockerclean="docker ps -qa | xargs docker kill ; docker ps -qa | xargs docker rm; docker system prune -f"
 
 export NVM_DIR="$HOME/.nvm/.nvm.old"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
