@@ -8,9 +8,14 @@ sudo apt-get dist-upgrade
 adduser nib
 # Add to sudoers
 usermod -aG sudo nib
+sudo groupadd sshusers
+sudo usermod -a -G sshusers nib
 
 # Set this in the sshd settings
 echo "PermitRootLogin no"
+echo "PasswordAuthentication no"
+echo "Protocol 2"
+echo "AllowGroups sshusers"
 service sshd restart
 
 # Install some basic things
@@ -18,6 +23,10 @@ sudo apt-get update
 
 #Curl Tmux
 sudo apt install curl tmux git pass
+
+# Fail 2 ban
+sudo apt install fail2ban
+systemctl start fail2ban
 
 #Docker
 sudo apt-get install apt-transport-https ca-certificates curl software-properties-common
