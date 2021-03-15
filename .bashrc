@@ -15,8 +15,10 @@ alias diff="diff -u"
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 alias less="less -X"
 alias dockerclean="docker ps -qa | xargs docker kill ; docker ps -qa | xargs docker rm; docker system prune -f"
+alias dockerrun="docker run --rm -it $(docker build -q .)"
 alias grep="grep --colour"
 alias cal='gcal --starting-day=1 -q GB_EN .'
+alias gcal='gcal --starting-day=1 -q GB_EN'
 alias bells='for x in {1..5}; do tput bel; done'
 
 export NVM_DIR="$HOME/.nvm"
@@ -30,6 +32,7 @@ export NVM_DIR="$HOME/.nvm"
 #export PATH=$PATH:$GOPATH/bin
 #export PATH=$PATH:$HOME/.rbenv/shims
 #export PATH=$PATH:$HOME/.rbenv/bin
+export PATH=$PATH:/Users/niall.bunting/Library/Android/sdk/platform-tools
 export CDPATH=.:~/work
 
 if [ -f ~/.git-completion.bash ]; then
@@ -66,3 +69,4 @@ export ARTIFACTORY_PWD=AP4fGjboZsyQJ91Y6YWGg9N6rWFMBhZG8uau4ofztL71hNAyn
 # tabtab source for packages
 # uninstall by removing these lines
 #[ -f ~/.config/tabtab/__tabtab.bash ] && . ~/.config/tabtab/__tabtab.bash || true
+export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
