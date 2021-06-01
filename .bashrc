@@ -20,6 +20,20 @@ alias grep="grep --colour"
 alias cal='gcal --starting-day=1 -q GB_EN .'
 alias gcal='gcal --starting-day=1 -q GB_EN'
 alias bells='for x in {1..5}; do tput bel; done'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+alias ......='cd ../../../../..'
+alias .......='cd ../../../../../..'
+alias ........='cd ../../../../../../..'
+alias .........='cd ../../../../../../../..'
+alias ..........='cd ../../../../../../../../..'
+alias ...........='cd ../../../../../../../../../..'
+alias ............='cd ../../../../../../../../../../..'
+alias .............='cd ../../../../../../../../../../../..'
+alias autopep8='autopep8 --in-place --recursive'
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
