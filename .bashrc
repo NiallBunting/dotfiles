@@ -59,7 +59,7 @@ alias cd='>/dev/null cd'
 #  . $(brew --prefix)/etc/bash_completion
 #fi
 
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
 
 #export AWS_ACCESS_KEY_ID=
@@ -77,7 +77,7 @@ eval "$(rbenv init -)"
 #sudo mount --bind /mnt/c /c
 
 export ARTIFACTORY_USER=niall.bunting
-export ARTIFACTORY_PWD=AP4fGjboZsyQJ91Y6YWGg9N6rWFMBhZG8uau4ofztL71hNAyn
+export ARTIFACTORY_PWD=
 
 
 # tabtab source for packages
