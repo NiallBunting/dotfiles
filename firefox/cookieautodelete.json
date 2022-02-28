@@ -1,0 +1,92 @@
+{
+  "firefox-container-1": [
+    {
+      "expression": "*",
+      "listType": "WHITE",
+      "storeId": "firefox-container-1",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "pIuh5vm8r"
+    }
+  ],
+  "firefox-container-7": [
+    {
+      "expression": "*",
+      "listType": "WHITE",
+      "storeId": "firefox-container-7",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "wSVzDDH0K"
+    }
+  ],
+  "firefox-container-8": [
+    {
+      "expression": "*.google.com",
+      "listType": "WHITE",
+      "storeId": "firefox-container-8",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "IOF87eWtT"
+    },
+    {
+      "expression": "gmail.com",
+      "listType": "WHITE",
+      "storeId": "firefox-container-8",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "o9XOiUF9g"
+    },
+    {
+      "expression": "google.com",
+      "listType": "WHITE",
+      "storeId": "firefox-container-8",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "xBW9g2I-Y"
+    },
+    {
+      "expression": "youtube.com",
+      "listType": "WHITE",
+      "storeId": "firefox-container-8",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "Qo53riPHK"
+    }
+  ],
+  "firefox-container-12": [
+    {
+      "expression": "*.facebook.com",
+      "listType": "WHITE",
+      "storeId": "firefox-container-12",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "IHd1lmXjy"
+    },
+    {
+      "expression": "facebook.com",
+      "listType": "WHITE",
+      "storeId": "firefox-container-12",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "a5bmQaPiE"
+    },
+    {
+      "expression": "messenger.com",
+      "listType": "WHITE",
+      "storeId": "firefox-container-12",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "rhb9q2o8p"
+    }
+  ],
+  "firefox-container-11": [
+    {
+      "expression": "*",
+      "listType": "WHITE",
+      "storeId": "firefox-container-11",
+      "cleanSiteData": [],
+      "cookieNames": [],
+      "id": "yTx9wYxdR"
+    }
+  ]
+}
