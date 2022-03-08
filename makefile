@@ -1,3 +1,4 @@
+.PHONY: all help init install build run lint test e2e plan deploy
 all: lint test run #help Full check
 
 help:

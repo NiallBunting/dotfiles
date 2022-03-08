@@ -1,1 +1,4 @@
 .*.swp
+
+# Use Makefile when you want it to be checked in lower case for personal use.
+makefile
