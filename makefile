@@ -1,3 +1,5 @@
+# Commake (v0.0.1) - https://niallbunting.com/commake/common/makefile/2022/03/09/commake-common-makefile.html
+
 .PHONY: all help init install build run lint test e2e plan deploy
 all: lint test run #help Full check
 
@@ -6,7 +8,8 @@ help:
 	@grep '#[h]elp' makefile
 
 init: #help Run through dependencies and check
-	go --version
+	@echo "Your version should be 1.17.6"
+	go version
 
 install: #help Install packages
 	go get .
