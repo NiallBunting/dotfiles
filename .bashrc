@@ -7,6 +7,7 @@ alias gb='git branch'
 alias gc='git checkout'
 alias gp='git pull'
 alias gs='git status'
+alias gsfn="gs | grep -A10000 Unmerged | sed 's/^[[:space:]a-z]*:[[:space:]]*//' | tail -n +3 | tr '\n' ' '"
 alias gd='git diff'
 alias curl='curl -v'
 alias tf='terraform'
