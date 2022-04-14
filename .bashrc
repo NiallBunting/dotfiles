@@ -47,6 +47,7 @@ export NVM_DIR="$HOME/.nvm"
 #export PATH=$PATH:$GOPATH/bin
 #export PATH=$PATH:$HOME/.rbenv/shims
 #export PATH=$PATH:$HOME/.rbenv/bin
+export PATH="/usr/local/opt/openjdk@11/bin:$PATH"
 export PATH=$PATH:/Users/niall.bunting/Library/Android/sdk/platform-tools
 export CDPATH=.:~/work
 
@@ -85,3 +86,19 @@ export ARTIFACTORY_PWD=
 # uninstall by removing these lines
 #[ -f ~/.config/tabtab/__tabtab.bash ] && . ~/.config/tabtab/__tabtab.bash || true
 export PATH="/usr/local/opt/gnu-getopt/bin:$PATH"
+
+# Josh P - made this
+killport() {
+  
+  port=$1
+  pid=$(lsof -ti:$port)
+
+  if [ -z $pid ]; then
+    echo "${Yellow}No process running on port: $port${Text_Reset}"
+    return 1
+  fi
+  
+  name=$(ps -p $pid -o comm=)
+  kill -9 $pid
+  echo "${Green}Killed process $name with id $pid running on port $port${Text_Reset}"
+} 
