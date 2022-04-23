@@ -34,7 +34,7 @@ alias ...........='cd ../../../../../../../../../..'
 alias ............='cd ../../../../../../../../../../..'
 alias .............='cd ../../../../../../../../../../../..'
 alias autopep8='autopep8 --in-place --recursive'
-alias nosleep='caffeinate -id'
+alias nosleep='caffeinate -id' # https://nosleep.page/ or as an option on non mac pages
 alias oksleep='killall caffeinate'
 
 
