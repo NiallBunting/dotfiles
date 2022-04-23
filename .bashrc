@@ -34,6 +34,8 @@ alias ...........='cd ../../../../../../../../../..'
 alias ............='cd ../../../../../../../../../../..'
 alias .............='cd ../../../../../../../../../../../..'
 alias autopep8='autopep8 --in-place --recursive'
+alias nosleep='caffeinate -id'
+alias oksleep='killall caffeinate'
 
 
 export NVM_DIR="$HOME/.nvm"
