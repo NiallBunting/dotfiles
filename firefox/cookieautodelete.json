@@ -19,11 +19,11 @@
       "id": "wSVzDDH0K"
     }
   ],
-  "firefox-container-8": [
+  "firefox-container-7": [
     {
       "expression": "*.google.com",
       "listType": "WHITE",
-      "storeId": "firefox-container-8",
+      "storeId": "firefox-container-7",
       "cleanSiteData": [],
       "cookieNames": [],
       "id": "IOF87eWtT"
@@ -31,7 +31,7 @@
     {
       "expression": "gmail.com",
       "listType": "WHITE",
-      "storeId": "firefox-container-8",
+      "storeId": "firefox-container-7",
       "cleanSiteData": [],
       "cookieNames": [],
       "id": "o9XOiUF9g"
@@ -39,7 +39,7 @@
     {
       "expression": "google.com",
       "listType": "WHITE",
-      "storeId": "firefox-container-8",
+      "storeId": "firefox-container-7",
       "cleanSiteData": [],
       "cookieNames": [],
       "id": "xBW9g2I-Y"
@@ -47,17 +47,17 @@
     {
       "expression": "youtube.com",
       "listType": "WHITE",
-      "storeId": "firefox-container-8",
+      "storeId": "firefox-container-7",
       "cleanSiteData": [],
       "cookieNames": [],
       "id": "Qo53riPHK"
     }
   ],
-  "firefox-container-12": [
+  "firefox-container-6": [
     {
       "expression": "*.facebook.com",
       "listType": "WHITE",
-      "storeId": "firefox-container-12",
+      "storeId": "firefox-container-6",
       "cleanSiteData": [],
       "cookieNames": [],
       "id": "IHd1lmXjy"
@@ -65,7 +65,7 @@
     {
       "expression": "facebook.com",
       "listType": "WHITE",
-      "storeId": "firefox-container-12",
+      "storeId": "firefox-container-6",
       "cleanSiteData": [],
       "cookieNames": [],
       "id": "a5bmQaPiE"
@@ -73,17 +73,17 @@
     {
       "expression": "messenger.com",
       "listType": "WHITE",
-      "storeId": "firefox-container-12",
+      "storeId": "firefox-container-6",
       "cleanSiteData": [],
       "cookieNames": [],
       "id": "rhb9q2o8p"
     }
   ],
-  "firefox-container-11": [
+  "firefox-container-2": [
     {
       "expression": "*",
       "listType": "WHITE",
-      "storeId": "firefox-container-11",
+      "storeId": "firefox-container-2",
       "cleanSiteData": [],
       "cookieNames": [],
       "id": "yTx9wYxdR"

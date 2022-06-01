@@ -16,7 +16,7 @@ alias diff="diff -u"
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 alias less="less -X"
 alias dockerclean="docker ps -qa | xargs docker kill ; docker ps -qa | xargs docker rm; docker system prune -f"
-alias dockerrun="docker run --rm -it $(docker build -q .)"
+#alias dockerrun="docker run --rm -it $(docker build -q .)"
 alias grep="grep --colour"
 alias cal='gcal --starting-day=1 -q GB_EN .'
 alias gcal='gcal --starting-day=1 -q GB_EN'
@@ -34,8 +34,10 @@ alias ...........='cd ../../../../../../../../../..'
 alias ............='cd ../../../../../../../../../../..'
 alias .............='cd ../../../../../../../../../../../..'
 alias autopep8='autopep8 --in-place --recursive'
-alias nosleep='caffeinate -id' # https://nosleep.page/ or as an option on non mac pages
-alias oksleep='killall caffeinate'
+alias nosleep='caffeine' # UBUNTU
+#alias nosleep='caffeinate -id' # MAC https://nosleep.page/ or as an option on non mac pages
+#alias oksleep='killall caffeinate' #MAC
+alias oksleep='killall caffeine'
 
 
 export NVM_DIR="$HOME/.nvm"
@@ -72,6 +74,8 @@ alias cd='>/dev/null cd'
 #export NPM_TOKEN=
 
 
+## Ubuntu commands
+alias pbcopy='xclip -selection c'
 
 ## WSL COMMANDS
 
