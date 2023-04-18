@@ -1,5 +1,6 @@
 export EDITOR=vim
 
+alias share='python3 -m http.server 8080'
 alias ls='ls -lG'
 alias python='python3'
 alias pip='pip3'
