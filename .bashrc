@@ -109,3 +109,28 @@ killport() {
   kill -9 $pid
   echo "${Green}Killed process $name with id $pid running on port $port${Text_Reset}"
 } 
+
+exportenv() {
+    if [ -z "$1" ] || [ ! -f "$1" ]; then
+        echo "Usage: exportenv <file>" >&2
+        return 1
+    fi
+
+    while IFS='=' read -r key value || [ -n "$key" ]; do
+        # Skip blank lines and comments
+        [ -z "$key" ] && continue
+        case "$key" in
+            \#*) continue ;;
+        esac
+
+        # Strip surrounding quotes if present
+        value="${value%\"}"
+        value="${value#\"}"
+        value="${value%\'}"
+        value="${value#\'}"
+
+        echo "Exporting $key"
+        export "$key=$value"
+    done < "$1"
+}
+
