@@ -40,6 +40,13 @@ alias nosleep='caffeine' # UBUNTU
 #alias oksleep='killall caffeinate' #MAC
 alias oksleep='killall caffeine'
 
+# File thats most changed
+alias gitmostchange='git log --format=format: --name-only --since="1 year ago" | sort | uniq -c | sort -nr | head -20'
+# Who makes the most changes
+alias gitwho='git shortlog -sn --no-merges'
+# Commits per month
+alias gitcommitcount='git log --format='%ad' --date=format:'%Y-%m' | sort | uniq -c'
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh"  # This loads nvm
